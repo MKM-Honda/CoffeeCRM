@@ -1,43 +1,16 @@
-# BPR Kancana
+# Coffee CRM
 
 ## How to install (on server)
 *****************
-```zsh
- git clone git@github.com:MKM-Honda/BPRKancana.git
- ```
 
-```zsh
-git pull origin main
-```
-
-Update the environment
+1. Please download this repo (Don't fork, otherwise other applicant might be able to track your test result)
+1. Update the environment in /application/config/.env
 ```zsh
 cp .env.example .env
 ```
 
-_Note : BPR_TOKEN must be created with Bcrypt, the unhashed word will be required by some controller_
-
-
-If you need to copy all uploaded files to local:
-```zsh
-rsync -aPz -e ssh mkmhonda@103.28.22.19:/var/www/html/BPRKancana/uploads /home/user/Downloads
-```
-
-Then copy all file manually to each folder inside the uploads folder on local BPRKancana
-
-## Tech Stack
-- PHP 5.6
-- Postgresql
-- MySQL
-- DomPDF
-- MobileDetect
-- PDFParser
-- PHPDotenv
-- PHPExcel
-- Bootstrap 4.6
-- JQuery
-- Select2
-- DateRangePicker
-- Google Calendar (National Holiday)
-- Full Calendar
-- Add to Calendar
+2. Please install and use PGAdmin to make it easy to manage the database
+3. Create new database (example: coffeedb)
+4. Restore the database file using the _restore_ feature in PGAdmin3 (right click on the database name that just created)
+5. Select the database file
+6. Once the database has been successfully restored, you are ready to start development.
