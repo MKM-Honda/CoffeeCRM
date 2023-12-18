@@ -15,6 +15,6 @@
 2. Please install and use PGAdmin3/PGAdmin4 to make it easy to manage the database
 3. Create new database (example: coffeedb)
 4. Restore the database file using the _restore_ feature in PGAdmin3/PGAdmin4 (right click on the database name that just created)
-5. Select the database file
+5. Select the database file (_coffeedb.backup_)
 6. Once the database has been successfully restored, you are ready to start development.
 7. Update the environment in /application/config/.env
