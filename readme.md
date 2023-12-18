@@ -9,7 +9,7 @@
 5. Web Browser
 
 
-## How to install (on server)
+## How to install
 *****************
 1. Please download this repo (Don't fork, otherwise other applicant might be able to track your test result)
 2. Please install and use PGAdmin3/PGAdmin4 to make it easy to manage the database
